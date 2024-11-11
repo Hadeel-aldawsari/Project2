@@ -1,6 +1,6 @@
 public class Car {
     private String code;
-    private  Route route;
+    private  final Route route;
     private int capacity;
 
     public String getCode() {
@@ -15,9 +15,6 @@ public class Car {
         return route;
     }
 
-    public void setRoute(Route route) {
-        this.route = route;
-    }
 
     public int getCapacity() {
         return capacity;
